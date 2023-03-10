@@ -32,3 +32,8 @@ select * from information_schema.table_constraints where constraint_schema = 'fi
 select constraint_name from information_schema.table_constraints;
 
 desc information_schema.table_constraints;
+
+insert into person values('1','Carolina', 'Silva', 'F','1979-08-21','rua tal','Cidade J','RJ','Brasil','26054-89');
+
+select * from person;
+
